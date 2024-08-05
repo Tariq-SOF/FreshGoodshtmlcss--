@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-image: url(cleanup.png);
+            background-size: cover;
+            background-position:center;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+        }
+        header h1{
+            text-align: center;
+            font-size:38px;
+            color: rgba(255, 255, 255, 0.683);
+        }
+        header h2{
+            position: relative;
+            left: 30vh;
+            font-size:85px;
+            color: rgba(255, 255, 255, 0.881);
+           
+        }
+        header p{
+            color: rgba(255, 255, 255, 0.881);
+            position: relative;
+            left: 30vh;
+            
+        }
+        header button{
+            position: relative;
+            left: 30vh;
+            background-color: #FFB400;
+            padding: 7px 30PX; 
+            font-weight: bold; 
+            border-style: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: rgba(0, 0, 0, 0.699);
+        }
+        .contenrtwo{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .contenrtwo-Prograf-one{
+            text-align: center;
+            font-size:52px;
+        }
+        .contenrtwo-Prograf-two{
+            text-align: center;
+            font-weight: bold;
+        }
+        .contenrtwo-Benefit{
+            width: 100%;
+            display: flex;
+           justify-content:space-evenly;
+        }
+        .Benefit{
+           text-align: center;
+        }
+        .contenrthree{
+            width: 100%;
+            height: 100vh;
+            background-image: url(background2.png);
+            background-size: cover;
+            background-position:center;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            cursor: pointer;
+        }
+        .contenrthree-prograf-one{
+           
+            font-size:larger;
+        }
+        .contenrthree-prograf-two{
+          color: #FFB400;
+          font-size:52px;
+        }
+        .contenrthree-prograf-three{
+            font-size:40px;
+            font-weight: normal;
+        }
+        .star {
+            color:#FFB400; 
+            font-size: 16px; 
+        }
+        .contenrfour{
+            width: 100%;
+            height:90vh;
+            background-color: #F5F5F5;
+            display: flex;
+           justify-content:space-around;
+           align-items: center;
+        }
+        .contenrfour img{
+            width: 95%;
+        }
+        .Feature{
+            text-align: center;
+        }
+        .contenrfive{
+            width: 100%;
+            height:75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenrfive-prograv{
+            font-weight: normal;
+            align-items: center; 
+            margin-left: 10px;
+        }
+        .contenrfive-prograv-one{
+            font-size:40px;
+            font-weight: normal;
+        }
+        .contenrfive-prograv-two{
+            font-size:larger;
+            font-weight: normal;
+        }
+        .contenrsex{
+            width: 100%;
+            height:67vh;
+            background-image: url(lastbackground.png);
+            background-size: cover;
+            background-position:center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenrsex-prograf-one{
+            text-align: center;
+            font-size:52px; 
+        }
+        .contenrsex-prograf-two{
+            text-align: center;
+            font-size:larger;
+        }
+        .contenrsex button{
+            background-color: #FFB400;
+            padding: 7px 30PX; 
+            font-weight: bold; 
+            border-style: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: rgba(0, 0, 0, 0.699);
+            align-items: center;
+            
+        }
+        footer{
+            width: 100%;
+            height: 8vh;
+            background-color:hsl(0, 0%, 19%);
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.847);
+            
+        }
+       @media (max-width: 767px) {
+  header{
+  background-image: url(cleanup.png);
+  background-size: cover;
+  background-position: center;
+  width: 200%;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  header h2 {
+    font-size: 64px;
+  }
+  header p {
+    font-size: 14px;
+  }
+  header button {
+    font-size: 12px;
+  }
+  .contenrtwo{
+    width:200% ;
+  }
+  .contenrthree{
+    width: 200%;
+
+  }
+  .contenrfour{
+    width: 200%;
+  }
+  .contenrtwo-Prograf-one {
+    font-size: 36px;
+  }
+  .contenrthree-prograf-two {
+    font-size: 36px;
+  }
+  .contenrsex-prograf-one {
+    font-size: 36px;
+    
+  }
+  .contenrfive {
+  width: 200%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+.contenrsex{
+    width: 200%;
+}
+footer{
+width: 200%;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  header h1 {
+    font-size: 28px;
+  }
+  header h2 {
+    font-size: 72px;
+  }
+  header p {
+    font-size: 16px;
+  }
+  header button {
+    font-size: 14px;
+  }
+  .contenrtwo-Prograf-one {
+    font-size: 44px;
+  }
+  .contenrthree-prograf-two {
+    font-size: 44px;
+  }
+  .contenrsex-prograf-one {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 38px;
+  }
+  header h2 {
+    font-size: 85px;
+  }
+  header p {
+    font-size: 18px;
+  }
+  header button {
+    font-size: 16px;
+  }
+  .contenrtwo-Prograf-one {
+    font-size: 52px;
+  }
+  .contenrthree-prograf-two {
+    font-size: 52px;
+  }
+  .contenrsex-prograf-one {
+    font-size: 52px;
+  }
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+  
+        <header>
+            <div>
+                <h1>FreshGoods</h1>
+                <h2>Concisely <br>describe your<br> product or service</h2>
+                <P> no need to get clever. Tell people exactly you`re offering,then<br>use this space to communicate your key value proposition</P>
+                <button>ORDER NOW</button>
+             </div>
+        </header>
+        <div class="contenrtwo">
+            <div>
+                <p class="contenrtwo-Prograf-one">Here are some of the benefits<br>of your offer</p>
+            </div>
+            <div>
+                <p class="contenrtwo-Prograf-two">Explain what makes your product or service great. Talk about features in a way<br>that highlights the real value get out of them.</p>
+            </div>
+            <div class="contenrtwo-Benefit">
+                <div class="Feature">
+                    <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/b41bc87d-freshgoods-benefit2-icon_1000000000000000000028.png">
+                    <h2>Feature 1</h2>
+                    <p>For example, restaurants and<br>bakeries could outline the<br>health benefits of their all-<br>natural ingredients.</p>
+                </div>
+                <div class="Feature">
+                    <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/6622ad60-freshgoods-benefit3-icon_1000000000000000000028.png">
+                    <h2>Feature 2</h2>
+                    <p>Florists and other small retailers<br>might use this space to describe<br>how their products make<br>delightful, one-of-a-kind gifts.</p>
+                </div>
+                <div class="Feature">
+                    <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/3a18a275-freshgoods-benefit1-icon_1000000000000000000028.png">
+                    <h2>Feature 3</h2>
+                    <p>You could also add buttons to<br>this section and share links to<br>otehr products or available<br>delivery methods.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contenrthree">
+            <P class="contenrthree-prograf-one">what our customers say</P>
+            <h1 class="contenrthree-prograf-two">،،</h1>
+            <p class="contenrthree-prograf-three">Share a real testimonial that hits some of<br>your benefits (but isn`t too sales-y).</p>
+            <div>
+                <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/1a1f4659-freshgoods-testimonial_1000000000000000000028.png">
+                <p>REAL NAME<br>Location</p>
+                <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+        </div>
+        <div class="contenrfour">
+            <div class="Benefit">
+                <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/6765ae81-freshgoods-feature1_10go0b20go09e00000001o.jpg">
+                <h2>Benefit 1</h2>
+                <p>Talk about some of the detalis of<br>your offer with a focus on the<br>value people get back.</p>
+            </div>
+            <div class="Benefit">
+                <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/bf92a2f6-freshgoods-feature2_10go0ku0go09e00009e01o.jpg">
+                <h2>Benefit 2</h2>
+                <p>Is there a pain point that your<br>product or service resolves? Tell<br>visitors about it here.</p>
+            </div>
+            <div class="Benefit">
+                <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/f55dfcfa-freshgoods-feature3_10go0b40go09e00000601o.jpeg">
+                <h2>Benefit 3</h2>
+                <p>Alternavely, you could this<br>section to address some<br>frequently asked questions.</p>
+            </div>
+        </div>
+        <div class="contenrfive">
+            <div><img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/freshgoods/ef9d9b9f-freshgoods-about_100000000000000000001o.jpg"></div>
+            <div class="contenrfive-prograv">
+                <p class="contenrfive-prograv-one">Some more<br>information about<br>your businrss</p>
+                <p class="contenrfive-prograv-two">Share a little about yourself as a business owner, or maybe<br>describe what makes your product or service unique.Give<br>visitors one more reason to care about your offer and want<br>to buy from you.</p>
+            </div>
+        </div>
+        <div class="contenrsex">
+            <p class="contenrsex-prograf-one">End with one<br>final call to action</p>
+            <p class="contenrsex-prograf-two">This is your last shot at converting someone.Remind them about the<br>benefits of your offer encourage them to act now.</p>
+            <div><button>ORDER NOW</button></div> 
+        </div>
+        <footer>
+            <h2>FrechGoods</h2>
+            <p>@ 2023 bootcamp.</p>
+        </footer>
+
+    
+</body>
+</html>
